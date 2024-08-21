@@ -1,0 +1,97 @@
+class customer
+{ public:
+intaccount_no;
+charfirstname[15];
+charmiddlename os,
+charlastname[15];
+charhouseno [4];
+char village 15];
+char state[15];
+char pin(10];
+char phone[10];
+}
+int choice, i=0 ;
+char ch= y;
+customer customers [100];
+do2
+{ cirscr();
+cout<<"\nWelcome to customore management system\n";
+cout<<" n1 New Account";
+cout<<" n2Update Account";
+cout<<"\nEnter choice";
+cin>>choice;
+switch(choice)
+< case 1 : start:
+randomize():
+acc = random 1000000);
+for(int j=0; j<100; j++)
+if(acc == customers il.account_no)
+goto start;
+customers [i.account_no = acc;
+cout<<" nEnter details:";
+cout<<"\nFirst Name(max 15 characters) : ";
+cin.getline(customers[i].firstname,15);
+cout<<"\nMiddle Name(max 15 characters) :";
+cin.getline(customers[il.middlename, 15);
+cout<<"\nLast Name(max 15 characters) : ";
+cin.getline(customers[i].lastname, 15);
+cout<<" nHouse Number:";
+cin.getline(customers[il.houseno,4);
+cout<<"\nVillage(max 15 characters) :";
+cin.getline(customers (il.village,15);
+cout<<"\nState(max 15 characters) :";
+cin.getline(customers (i].state,15);
+cout<<" nPIN:";
+cin.getline(customers[il.pin,10);
+cout<<" nPhone number:";
+cin.getline(customers [il.phone,10);
+k=i;
+itt;
+break;
+case 2 :cout<<"\nEnter account number";
+cin>>acc;
+for (int j=0; j<100; j++)
+if(acc == customersli].account_no)
+break;
+cout<<"\nYour previous details are \n";
+Cout<<"\nAccountnumber: "<<customers[k].account_no;
+Cout<<"\nName : "«<customers[k].firstname<<" "<<customers[k].middlename<<"
+"<<customers[k].lastname;
+Cout<<"\nAddress: "«<customers[k].houseno<<", "«<customers(k].village<<" ,
+"customers[k].state<<" -
+"<<customers[k].pin;
+Cout<<"\nPhonenumber : "<<customers[k].phone
+cout<<"\nEnter new details\n";
+cout<<"nEnter details: ":
+cout<<" nFirst Name(max 15 characters) :";
+cin.getline(customers [i].firstname,15);
+cout<<"\nMiddle Name(max 15 characters) :";
+cin.getline(customers[il.middlename,15);
+cout<<"\nLast Name(max 15 characters) :";
+cin.get line(customers [il.lastname,15);
+cout<<"\nHouse Number:";
+cin.getline(customers [i].houseno,4);
+cout<<" nVillage(max 15 characters) : ";
+cin.getline(customers[il.village,15);
+cout<<"\nState(max 15 characters) :";
+cin.getline(customers (i].state,15);
+cout<<"\nPIN:";
+cin.getline(customers[il.pin,10);
+cout<<"\Phone number:";
+cin.getline(customers[il.phone,10);
+k=j;
+break;
+}
+CIrscr()
+Cout<<"\nYour present details in bank are\n";
+Cout<<"\ nAccountnumber : "<<customers[k].account_no;
+Cout<<"\nName : "«<customers[k].firstname<<" "<<customers[k].middlename<<"
+"<<customers|k].lastname;
+Cout<<"|nAddress: "«customers[k].houseno<<", "«<customers[k].villages<" ,
+"customers[k].state<<"-"<<customers[k].pin;
+Cout<<"\Phonenumber: "<<customers[k].phone;
+Cout<<"\n\nKindly note your account number. It will be required in future to perform any banking activity \n";
+Cout<<"\nEnter y to continue with the system or n to exit the system";
+Cin>>ch;
+}while(ch=='y)
+return;
